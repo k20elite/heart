@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fanpage Jungkook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: white; /* Màu chữ trắng */
+            margin: 0;
+            padding: 0;
+        }
+
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            filter: blur(5px);
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white; /* Màu chữ trắng */
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0px 0px 1px black; /* Nền xám cho chữ và viền nét chữ màu đen */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted id="video-background">
+        <source src="https://cdn.anh.moe/s7/gKO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Thẻ <audio> để chèn nhạc nền -->
+    <audio autoplay loop>
+        <source src="zzz.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <header>
+        <h1>Fanpage Jungkook</h1>
+    </header>
+    <main>
+        <h2>Biography</h2>
+        <p>Jungkook, also known as the "Golden Maknae," is a member of the South Korean boy band BTS. Born on September 1, 1997, he is the youngest member of the group. Jungkook is known for his exceptional vocals, dance skills, and charming personality.</p>
+
+        <h2>Image Gallery</h2>
+        <img src="https://th.bing.com/th/id/OIP.eKnHTdHzpuWt9DVMiRvKzAHaNU?pid=ImgDet&rs=1" alt="Jungkook Image">
+        <img src="https://i.pinimg.com/originals/c9/6e/33/c96e335566b19e7987654e31d4e65bb9.jpg" alt="Jungkook Image">
+        <img src="https://i.pinimg.com/736x/0e/a2/a3/0ea2a320b8f171e9af2a31dd81926c7e.jpg" alt="Jungkook Image">
+
+        <h2>Favorite Songs</h2>
+        <ul>
+            <li>Spring Day</li>
+            <li>Save Me</li>
+            <li>Euphoria</li>
+        </ul>
+    </main>
+</body>
+</html>
